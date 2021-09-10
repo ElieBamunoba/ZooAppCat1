@@ -27,7 +27,6 @@
 
     <EditText
         android:id="@+id/firstName"
-
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_input"

@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
+        //var recyclerView =layout.animalList
         value = "This is home Fragment"
     }
     val text: LiveData<String> = _text
